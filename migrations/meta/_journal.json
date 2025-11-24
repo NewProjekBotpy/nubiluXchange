@@ -1,0 +1,139 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1757864611416,
+      "tag": "0000_unusual_red_hulk",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1758125660017,
+      "tag": "0001_lying_nuke",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1758456135870,
+      "tag": "0002_loud_hiroim",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1758608554746,
+      "tag": "0003_fancy_supreme_intelligence",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1758636944659,
+      "tag": "0004_faulty_moon_knight",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1758647713094,
+      "tag": "0005_omniscient_clint_barton",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1758685176639,
+      "tag": "0006_rapid_paper_doll",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1758685561440,
+      "tag": "0007_violet_outlaw_kid",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1758886195908,
+      "tag": "0008_hesitant_sauron",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1759166196364,
+      "tag": "0009_amused_retro_girl",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1759481233187,
+      "tag": "0010_busy_shockwave",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1760024501606,
+      "tag": "0011_free_dark_beast",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1760271020000,
+      "tag": "0013_add_pending_totp_fields",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1760468429836,
+      "tag": "0013_sturdy_solo",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1760685135859,
+      "tag": "0014_bitter_dragon_lord",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1760692244037,
+      "tag": "0015_majestic_slapstick",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1760762155448,
+      "tag": "0016_sudden_post",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1761365391708,
+      "tag": "0017_material_rhino",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1761746554539,
+      "tag": "0018_plain_famine",
+      "breakpoints": true
+    }
+  ]
+}

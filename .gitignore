@@ -1,0 +1,58 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Generated files and directories
+logs/
+coverage/
+test-results/
+playwright-report/
+.cache/
+
+# User uploads (keep directory structure, ignore contents)
+public/uploads/
+
+# Temporary attached assets
+attached_assets/
+
+# Security: Exclude sensitive files
+cookies.txt
+*cookies*.txt
+*cookie*
+*.cookie
+*.session
+*.jwt
+secrets.json
+private-keys/
+*.pem
+*.key
+
+# Environment files - CRITICAL: Never commit these
+.env
+.env.*
+!.env.example
+
+# Additional credential protection patterns
+*auth*.txt
+*token*.txt
+*credential*.txt
+*secret*.txt
+*session*.txt
+*.dump
+*.cookies
+*_cookies.txt
+admin_cookies.*
+fresh_cookies.*
+test_cookies.*
+curl_cookies.*
+
+# Backup and temporary credential files
+*.bak
+*.backup
+*~
+.#*
+#*#*.mp4
+*.zip
