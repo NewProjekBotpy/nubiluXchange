@@ -184,13 +184,46 @@ Preferred communication style: Simple, everyday language.
 - Mock services for third-party integrations (Midtrans, Cloudinary)
 - Test utilities for authentication and data setup
 
+## Deployment
+
+### Production Deployment (Vercel + Supabase)
+
+The application is configured for serverless deployment on Vercel with Supabase as the database backend - both completely free without requiring a credit card.
+
+**Deployment Stack:**
+- **Frontend + Backend**: Vercel (Hobby tier - 100GB bandwidth/month free)
+- **Database**: Supabase (Free tier - 500MB database, 1GB storage)
+- **Cost**: $0/month for basic usage
+
+**Setup Guide:**
+See `VERCEL_DEPLOYMENT_GUIDE.md` for complete step-by-step deployment instructions.
+
+**Key Files:**
+- `vercel.json`: Deployment configuration for Vercel
+- `.env.example`: Template for all required environment variables
+- `VERCEL_DEPLOYMENT_GUIDE.md`: Complete deployment tutorial in Bahasa Indonesia
+
+**Required Environment Variables:**
+```
+DATABASE_URL              # Supabase PostgreSQL connection string
+SESSION_SECRET            # Min 32 characters (generate with: openssl rand -base64 32)
+JWT_SECRET                # Min 32 characters  
+TOTP_ENCRYPTION_KEY       # Min 32 characters (required for 2FA in production)
+NODE_ENV=production
+FRONTEND_URL              # Your Vercel deployment URL
+ALLOWED_DOMAINS           # Your Vercel domain (for CORS)
+```
+
+**Database Migration:**
+The application uses Drizzle ORM which is compatible with both Neon and Supabase PostgreSQL. Simply update `DATABASE_URL` to your Supabase connection string and run migrations.
+
 ## External Dependencies
 
 ### Required Services
 
 **Database:**
-- **PostgreSQL (Neon)**: Primary data store with SSL connections required
-- **Connection String**: Must include `?sslmode=require` for production
+- **PostgreSQL (Supabase/Neon)**: Primary data store with SSL connections required
+- **Connection String**: Direct connection string from Supabase Dashboard
 - **Migration Management**: Drizzle Kit handles schema changes
 
 **Environment Variables (Critical):**
